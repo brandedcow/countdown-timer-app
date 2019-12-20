@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="timer.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div id="app">
+        <div class="aspect-ratio-2-1">
+            <div id="timer">
+                <div id="clock-background-ticker">
+                    <div id="pseudo-ticker"></div>
+                </div>
+                <div id="timer-display" tabindex="0">
+                    <div id="0" class="digit-container dig1">0</div>
+                    <div id="1" class="digit-container dig2">0</div>
+                    <div class="colon-container col1">:</div>
+                    <div id="2" class="digit-container dig3">0</div>
+                    <div id="3" class="digit-container dig4">0</div>
+                    <div class="colon-container col2">:</div>
+                    <div id="4" class="digit-container dig5">0</div>
+                    <div id="5" class="digit-container dig6">0</div>
+                    <div class="period-container small-digit dot1">.</div>
+                    <div id="6" class="centi-container small-digit dig7">0</div>
+                    <div id="7" class="centi-container small-digit dig8">0</div>
+                </div>
+                <div id="button-container">
+                    <button id="action-button" class="start-button"> 
+                        START
+                    </button>
+                    <button id="reset-button">
+                        RESET
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="timer.js"></script>
+</body>
+</html>
